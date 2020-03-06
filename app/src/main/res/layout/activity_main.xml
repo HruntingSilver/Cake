@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/background"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="37dp">
+
+        <TextView
+            android:layout_width="254dp"
+            android:layout_height="match_parent"
+            android:text="Choose a type of cake:"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="156dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+
+            android:src="@drawable/squarecake" />
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="132dp"
+            android:layout_marginLeft="150dp"
+            android:src="@drawable/roundcake" />
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="132dp"
+            android:layout_marginLeft="280dp"
+            android:src="@drawable/roll"/>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="47dp">
+
+        <RadioGroup
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:id="@+id/radioShape"
+            android:layout_height="47dp">
+
+            <RadioButton
+                android:layout_width="162dp"
+                android:layout_height="40dp"
+                android:text="Square" />
+
+            <RadioButton
+                android:layout_width="136dp"
+                android:layout_height="40dp"
+                android:text="Round" />
+            <RadioButton
+                android:layout_width="107dp"
+                android:layout_height="40dp"
+                android:text="Roll"/>
+
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="37dp">
+
+        <TextView
+            android:layout_width="163dp"
+            android:layout_height="match_parent"
+            android:text="Choose a Flavor:"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/radioFlavor"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+        <RadioButton
+            android:layout_width="133dp"
+            android:layout_height="67dp"
+            android:id="@+id/radioFlavorCustard"
+            android:text="Custard"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:layout_width="141dp"
+            android:layout_height="67dp"
+            android:id="@+id/radioFlavorChocolate"
+            android:text="Chocolate"
+            android:textSize="20dp" />
+        <RadioButton
+            android:layout_width="141dp"
+            android:layout_height="67dp"
+            android:id="@+id/radioFlavorBlackForest"
+            android:text="Black Forest"
+            android:textSize="20dp" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="31dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Choose a Topping:"
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="74dp">
+
+        <RadioGroup
+            android:id="@+id/radioTop"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+        <RadioButton
+            android:layout_width="141dp"
+            android:layout_height="67dp"
+            android:id="@+id/radioTopNone"
+            android:text="None"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:layout_width="141dp"
+            android:layout_height="67dp"
+            android:id="@+id/radioTopChocolate"
+            android:text="Chocolate"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:layout_width="141dp"
+            android:layout_height="67dp"
+            android:id="@+id/radioTopRainbowSprinkle"
+            android:text="Rainbow Sprinkle"
+            android:textSize="20dp" />
+        </RadioGroup>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="29dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Message:"
+
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="397dp"
+        android:layout_height="64dp">
+
+        <EditText
+            android:id="@+id/message"
+            android:layout_width="match_parent"
+            android:layout_height="56dp" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="312dp"
+        android:layout_height="49dp"
+        android:text="Submit"
+        android:layout_marginLeft="50dp"
+        android:onClick="displayToastMsg"
+        />
+</LinearLayout>

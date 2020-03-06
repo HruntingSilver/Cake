@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "288310036283",
+    "firebase_url": "https://fir-test-7ce8b.firebaseio.com",
+    "project_id": "fir-test-7ce8b",
+    "storage_bucket": "fir-test-7ce8b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:288310036283:android:8db920e26830daeeb9991e",
+        "android_client_info": {
+          "package_name": "com.activity.cake"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "288310036283-ln5up2fvte521gsvv6tooub4l5ta930a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAho-bvZSvOOOEm9TFJgXbbvq_6JC_ZP7I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "288310036283-ln5up2fvte521gsvv6tooub4l5ta930a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
